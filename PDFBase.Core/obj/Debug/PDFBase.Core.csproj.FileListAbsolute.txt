@@ -1,0 +1,11 @@
+D:\GitHub\PDFBase\PDFBase.Core\bin\Debug\PDFBase.Core.dll
+D:\GitHub\PDFBase\PDFBase.Core\bin\Debug\PDFBase.Core.pdb
+D:\GitHub\PDFBase\PDFBase.Core\obj\Debug\PDFBase.Core.dll
+D:\GitHub\PDFBase\PDFBase.Core\obj\Debug\PDFBase.Core.pdb
+D:\GitHub\PDFBase\PDFBase.Core\obj\Debug\PDFBase.Core.Properties.Resources.resources
+D:\GitHub\PDFBase\PDFBase.Core\obj\Debug\PDFBase.Core.Views.ucFound.resources
+D:\GitHub\PDFBase\PDFBase.Core\obj\Debug\PDFBase.Core.csproj.GenerateResource.Cache
+D:\GitHub\PDFBase\PDFBase.Core\obj\Debug\PDFBase.Core.Views.ucSocialContact.resources
+D:\GitHub\PDFBase\PDFBase.Core\obj\Debug\PDFBase.Core.Views.ucSocialItem.resources
+D:\GitHub\PDFBase\PDFBase.Core\obj\Debug\PDFBase.Core.Views.ucPersional.resources
+D:\GitHub\PDFBase\PDFBase.Core\obj\Debug\PDFBase.Core.Views.ucLocalDocs.resources

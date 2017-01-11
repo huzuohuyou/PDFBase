@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F40E32BA-A35F-4302-A4F8-4CA0E836CD88}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PDFBase.Core</RootNamespace>
+    <AssemblyName>PDFBase.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller\SwitchViewController.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\IContainder.cs" />
+    <Compile Include="Views\IView.cs" />
+    <Compile Include="Views\ucFound.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\ucFound.Designer.cs">
+      <DependentUpon>ucFound.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ucLocalDocs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\ucLocalDocs.Designer.cs">
+      <DependentUpon>ucLocalDocs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ucPersional.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\ucPersional.Designer.cs">
+      <DependentUpon>ucPersional.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ucSocialContact.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\ucSocialContact.Designer.cs">
+      <DependentUpon>ucSocialContact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ucSocialDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\ucSocialDetail.Designer.cs">
+      <DependentUpon>ucSocialDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ucSocialItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\ucSocialItem.Designer.cs">
+      <DependentUpon>ucSocialItem.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Utils\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ucFound.resx">
+      <DependentUpon>ucFound.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ucLocalDocs.resx">
+      <DependentUpon>ucLocalDocs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ucPersional.resx">
+      <DependentUpon>ucPersional.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ucSocialContact.resx">
+      <DependentUpon>ucSocialContact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ucSocialItem.resx">
+      <DependentUpon>ucSocialItem.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01574f16d7da62b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\line.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b8fd3c60d294649f13c2e7ef799f2080.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b8fd3c60d294649f13c2e7ef799f20801.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b8fd3c60d294649f13c2e7ef799f20802.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portrait_Mode_365.67164179104px_1192335_easyicon.net.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zhuan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ping.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQ截图20170111144220.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
