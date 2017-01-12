@@ -187,7 +187,7 @@
             this.label4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label4.Font = new System.Drawing.Font("微软雅黑", 7.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label4.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.label4.Location = new System.Drawing.Point(400, 257);
+            this.label4.Location = new System.Drawing.Point(397, 257);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(26, 16);
             this.label4.TabIndex = 7;
@@ -199,7 +199,7 @@
             this.label5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label5.Font = new System.Drawing.Font("微软雅黑", 7.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label5.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.label5.Location = new System.Drawing.Point(469, 257);
+            this.label5.Location = new System.Drawing.Point(462, 257);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(26, 16);
             this.label5.TabIndex = 7;
@@ -211,7 +211,7 @@
             this.label6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label6.Font = new System.Drawing.Font("微软雅黑", 7.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label6.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.label6.Location = new System.Drawing.Point(535, 257);
+            this.label6.Location = new System.Drawing.Point(527, 257);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(26, 16);
             this.label6.TabIndex = 7;

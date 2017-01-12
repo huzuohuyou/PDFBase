@@ -83,7 +83,6 @@
             this.splitContainer1.Panel1.Controls.Add(this.label1);
             this.splitContainer1.Panel1.Cursor = System.Windows.Forms.Cursors.Default;
             this.splitContainer1.Panel1.Font = new System.Drawing.Font("Kristen ITC", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.splitContainer1.Panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
             // 
             // splitContainer1.Panel2
             // 
@@ -249,7 +248,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "本地文献管理";
             this.Load += new System.EventHandler(this.FormMain_Load);
-            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel1.PerformLayout();
             this.splitContainer1.Panel2.ResumeLayout(false);

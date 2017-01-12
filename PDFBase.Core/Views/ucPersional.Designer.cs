@@ -39,8 +39,8 @@
             this.label8 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
@@ -172,16 +172,6 @@
             this.panel2.Size = new System.Drawing.Size(200, 198);
             this.panel2.TabIndex = 5;
             // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label9.Location = new System.Drawing.Point(3, 3);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(56, 17);
-            this.label9.TabIndex = 0;
-            this.label9.Text = "热门话题";
-            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -193,6 +183,16 @@
             this.label10.Size = new System.Drawing.Size(32, 17);
             this.label10.TabIndex = 1;
             this.label10.Text = "更多";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label9.Location = new System.Drawing.Point(3, 3);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(56, 17);
+            this.label9.TabIndex = 0;
+            this.label9.Text = "热门话题";
             // 
             // panel3
             // 

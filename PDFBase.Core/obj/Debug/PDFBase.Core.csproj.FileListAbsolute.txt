@@ -9,3 +9,5 @@ D:\GitHub\PDFBase\PDFBase.Core\obj\Debug\PDFBase.Core.Views.ucSocialContact.reso
 D:\GitHub\PDFBase\PDFBase.Core\obj\Debug\PDFBase.Core.Views.ucSocialItem.resources
 D:\GitHub\PDFBase\PDFBase.Core\obj\Debug\PDFBase.Core.Views.ucPersional.resources
 D:\GitHub\PDFBase\PDFBase.Core\obj\Debug\PDFBase.Core.Views.ucLocalDocs.resources
+D:\GitHub\PDFBase\PDFBase.Core\obj\Debug\PDFBase.Core.csprojResolveAssemblyReference.cache
+D:\GitHub\PDFBase\PDFBase.Core\obj\Debug\PDFBase.Core.Views.frmSendMessage.resources

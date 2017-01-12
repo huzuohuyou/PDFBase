@@ -73,6 +73,16 @@ namespace PDFBase.Core.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap article {
+            get {
+                object obj = ResourceManager.GetObject("article", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap b8fd3c60d294649f13c2e7ef799f2080 {
             get {
                 object obj = ResourceManager.GetObject("b8fd3c60d294649f13c2e7ef799f2080", resourceCulture);
@@ -106,6 +116,16 @@ namespace PDFBase.Core.Properties {
         internal static System.Drawing.Bitmap line {
             get {
                 object obj = ResourceManager.GetObject("line", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pic {
+            get {
+                object obj = ResourceManager.GetObject("pic", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

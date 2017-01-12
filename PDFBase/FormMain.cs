@@ -11,13 +11,16 @@ using System.Runtime.InteropServices;
 
 namespace PDFBase
 {
-    public partial class FormMain : Form, IContainder
+    public partial class FormMain : BaseStyleForm, IContainder
     {
         IView view;
-        public FormMain()
+        public FormMain():base()
         {
             InitializeComponent();
+            splitContainer1.Panel1.MouseDown += new MouseEventHandler(Control_MouseDown);
         }
+
+        
 
         private void label2_MouseHover(object sender, EventArgs e)
         {
@@ -38,27 +41,9 @@ namespace PDFBase
         {
             tv_list.ExpandAll();
             SwitchView(new ucFound());
-            SetClassLong(this.Handle, GCL_STYLE, GetClassLong(this.Handle, GCL_STYLE) | CS_DropSHADOW);
+            
         }
-
-        [DllImport("user32.dll")]
-        public static extern bool ReleaseCapture();
-        [DllImport("user32.dll")]
-        public static extern bool SendMessage(IntPtr hwnd, int wMsg, int wParam, int lParam);
-        public const int WM_SYSCOMMAND = 0x0112;
-        public const int SC_MOVE = 0xF010;
-        public const int HTCAPTION = 0x0002;
-        private const int CS_DropSHADOW = 0x20000;
-        private const int GCL_STYLE = (-26);
-        [DllImport("user32.dll", CharSet = CharSet.Auto)]
-        public static extern int SetClassLong(IntPtr hwnd, int nIndex, int dwNewLong);
-        [DllImport("user32.dll", CharSet = CharSet.Auto)]
-        public static extern int GetClassLong(IntPtr hwnd, int nIndex);
-        private void Form1_MouseDown(object sender, MouseEventArgs e)
-        {
-            ReleaseCapture();
-            SendMessage(this.Handle, WM_SYSCOMMAND, SC_MOVE + HTCAPTION, 0);
-        }
+        
 
         public void SwitchView(IView view)
         {
